@@ -1,0 +1,6 @@
+imię: Michał
+nazwisko: Szczęsny
+numer albumu: 233845
+e-mail: 233845@edu.p.lodz.pl
+tryb studiów: stacjonarne
+grupa: 2AiSR1
