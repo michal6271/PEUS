@@ -4,3 +4,15 @@ numer albumu: 233845
 e-mail: 233845@edu.p.lodz.pl
 tryb studiów: stacjonarne
 grupa: 2AiSR1
+imię: Michał
+nazwisko: Witczewski
+numer albumu: 233851
+e-mail: 233851@edu.p.lodz.pl
+tryb studiów: stacjonarne
+grupa: 2AiSR1
+imię: Albert
+nazwisko: Sawiński
+numer albumu: 233839
+e-mail: 233839@edu.p.lodz.pl
+tryb studiów: stacjonarne
+grupa: 2AiSR1
