@@ -14241,6 +14241,15 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="246.38" y1="-137.16" x2="246.38" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="246.38" y="-144.78"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="358.14" y1="78.74" x2="358.14" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="83.82" x2="360.68" y2="83.82" width="0.1524" layer="91"/>
+<label x="355.6" y="83.82" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="358.14" y1="83.82" x2="355.6" y2="83.82" width="0.1524" layer="91"/>
+<junction x="358.14" y="83.82"/>
+<pinref part="IC3" gate="A1" pin="VI"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -15321,17 +15330,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="L5" gate="G$1" pin="1"/>
 <wire x1="294.64" y1="104.14" x2="304.8" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="104.14" x2="304.8" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="358.14" y1="78.74" x2="358.14" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="83.82" x2="360.68" y2="83.82" width="0.1524" layer="91"/>
-<label x="355.6" y="83.82" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<wire x1="358.14" y1="83.82" x2="355.6" y2="83.82" width="0.1524" layer="91"/>
-<junction x="358.14" y="83.82"/>
-<pinref part="IC3" gate="A1" pin="VI"/>
 </segment>
 </net>
 </nets>
