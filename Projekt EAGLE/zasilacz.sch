@@ -20943,13 +20943,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <clearance class="0" value="0.7874"/>
 </class>
 </classes>
-<groups>
-<schematic_group name="POWER_SUPPLY"/>
-<schematic_group name="POWER_CONVERSION"/>
-<schematic_group name="MOSFET_CONTROL"/>
-<schematic_group name="FAN_CONTROL"/>
-<schematic_group name="CURRENT_MEASUREMENT"/>
-</groups>
 <parts>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="05"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2"/>
@@ -21051,11 +21044,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="388.62" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="388.62" y="86.995" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="144.78" y="81.28" smashed="yes" grouprefs="POWER_CONVERSION">
+<instance part="R1" gate="G$1" x="144.78" y="81.28" smashed="yes">
 <attribute name="NAME" x="140.97" y="82.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.97" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="144.78" y="106.68" smashed="yes" rot="R180" grouprefs="POWER_CONVERSION">
+<instance part="R2" gate="G$1" x="144.78" y="106.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.59" y="105.1814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="148.59" y="109.982" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -21063,30 +21056,30 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="378.46" y="61.722" size="1.778" layer="95"/>
 <attribute name="VALUE" x="378.46" y="-27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="144.78" y="27.94" smashed="yes" grouprefs="POWER_CONVERSION">
+<instance part="R3" gate="G$1" x="144.78" y="27.94" smashed="yes">
 <attribute name="NAME" x="140.97" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.97" y="24.638" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="144.78" y="53.34" smashed="yes" rot="R180" grouprefs="POWER_CONVERSION">
+<instance part="R4" gate="G$1" x="144.78" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.59" y="51.8414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="148.59" y="56.642" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="144.78" y="-27.94" smashed="yes" grouprefs="POWER_CONVERSION">
+<instance part="R5" gate="G$1" x="144.78" y="-27.94" smashed="yes">
 <attribute name="NAME" x="140.97" y="-26.4414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="140.97" y="-31.242" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="144.78" y="-2.54" smashed="yes" rot="R180" grouprefs="POWER_CONVERSION">
+<instance part="R6" gate="G$1" x="144.78" y="-2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.59" y="-4.0386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="148.59" y="0.762" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D1" gate="1" x="266.7" y="-157.48" smashed="yes" rot="R90" grouprefs="FAN_CONTROL">
+<instance part="D1" gate="1" x="266.7" y="-157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="266.2174" y="-154.94" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="269.0114" y="-154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="FAN_CONNECTOR" gate="-1" x="327.66" y="-137.16" smashed="yes" grouprefs="FAN_CONTROL">
+<instance part="FAN_CONNECTOR" gate="-1" x="327.66" y="-137.16" smashed="yes">
 <attribute name="NAME" x="330.2" y="-137.922" size="1.524" layer="95"/>
 </instance>
-<instance part="FAN_CONNECTOR" gate="-2" x="327.66" y="-165.1" smashed="yes" grouprefs="FAN_CONTROL">
+<instance part="FAN_CONNECTOR" gate="-2" x="327.66" y="-165.1" smashed="yes">
 <attribute name="NAME" x="330.2" y="-165.862" size="1.524" layer="95"/>
 </instance>
 <instance part="C12" gate="G$1" x="383.54" y="76.2" smashed="yes">
@@ -21097,10 +21090,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="410.464" y="76.581" size="1.778" layer="95"/>
 <attribute name="VALUE" x="410.464" y="71.501" size="1.778" layer="96"/>
 </instance>
-<instance part="OUTPUT_CONNECTOR" gate="-1" x="220.98" y="43.18" smashed="yes" grouprefs="POWER_CONVERSION">
+<instance part="OUTPUT_CONNECTOR" gate="-1" x="220.98" y="43.18" smashed="yes">
 <attribute name="NAME" x="223.52" y="42.418" size="1.524" layer="95"/>
 </instance>
-<instance part="OUTPUT_CONNECTOR" gate="-2" x="220.98" y="12.7" smashed="yes" grouprefs="POWER_CONVERSION">
+<instance part="OUTPUT_CONNECTOR" gate="-2" x="220.98" y="12.7" smashed="yes">
 <attribute name="NAME" x="223.52" y="11.938" size="1.524" layer="95"/>
 </instance>
 <instance part="R7" gate="G$1" x="289.56" y="20.32" smashed="yes" rot="R90">
@@ -21211,11 +21204,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="V_ENC" gate="-5" x="337.82" y="-35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="335.28" y="-34.798" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="TRAFO" gate="-1" x="274.32" y="99.06" smashed="yes" rot="R180" grouprefs="POWER_SUPPLY">
+<instance part="TRAFO" gate="-1" x="274.32" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="271.78" y="99.822" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="275.082" y="97.663" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="TRAFO" gate="-2" x="274.32" y="101.6" smashed="yes" rot="R180" grouprefs="POWER_SUPPLY">
+<instance part="TRAFO" gate="-2" x="274.32" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="271.78" y="102.362" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="Q1" gate="G$1" x="160.02" y="83.82" smashed="yes">
@@ -21230,7 +21223,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="165.1" y="-22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="-25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="Q8" gate="G$1" x="259.08" y="-142.24" smashed="yes" rot="MR270" grouprefs="FAN_CONTROL">
+<instance part="Q8" gate="G$1" x="259.08" y="-142.24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="256.54" y="-147.32" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="259.08" y="-147.32" size="1.778" layer="96" rot="MR270"/>
 </instance>
@@ -21254,43 +21247,43 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="297.18" y="20.32" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="297.18" y="17.78" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U2" gate="G$1" x="170.18" y="-83.82" smashed="yes" grouprefs="MOSFET_CONTROL">
+<instance part="U2" gate="G$1" x="170.18" y="-83.82" smashed="yes">
 <attribute name="NAME" x="162.555709375" y="-73.6543" size="1.779" layer="95"/>
 <attribute name="VALUE" x="162.55698125" y="-96.525" size="1.7787" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="154.94" y="-10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.48" y="-15.24" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="154.94" y="-15.24" size="1.778" layer="96" rot="R270"/>
+<instance part="Q2" gate="G$1" x="154.94" y="-10.16" smashed="yes" rot="MR270">
+<attribute name="NAME" x="152.4" y="-15.24" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="154.94" y="-15.24" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="Q4" gate="G$1" x="154.94" y="45.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.48" y="40.64" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="154.94" y="40.64" size="1.778" layer="96" rot="R270"/>
+<instance part="Q4" gate="G$1" x="154.94" y="45.72" smashed="yes" rot="MR270">
+<attribute name="NAME" x="152.4" y="40.64" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="154.94" y="40.64" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="Q6" gate="G$1" x="154.94" y="99.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.48" y="93.98" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="154.94" y="93.98" size="1.778" layer="96" rot="R270"/>
+<instance part="Q6" gate="G$1" x="154.94" y="99.06" smashed="yes" rot="MR270">
+<attribute name="NAME" x="152.4" y="93.98" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="154.94" y="93.98" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="C4" gate="G$1" x="132.08" y="-81.28" smashed="yes" grouprefs="MOSFET_CONTROL">
+<instance part="C4" gate="G$1" x="132.08" y="-81.28" smashed="yes">
 <attribute name="NAME" x="133.604" y="-80.899" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.604" y="-85.979" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$1" x="170.18" y="-119.38" smashed="yes" grouprefs="MOSFET_CONTROL">
+<instance part="U3" gate="G$1" x="170.18" y="-119.38" smashed="yes">
 <attribute name="NAME" x="162.555709375" y="-109.2143" size="1.779" layer="95"/>
 <attribute name="VALUE" x="162.55698125" y="-132.085" size="1.7787" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="132.08" y="-116.84" smashed="yes" grouprefs="MOSFET_CONTROL">
+<instance part="C7" gate="G$1" x="132.08" y="-116.84" smashed="yes">
 <attribute name="NAME" x="133.604" y="-116.459" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.604" y="-121.539" size="1.778" layer="96"/>
 </instance>
-<instance part="U4" gate="G$1" x="170.18" y="-154.94" smashed="yes" grouprefs="MOSFET_CONTROL">
+<instance part="U4" gate="G$1" x="170.18" y="-154.94" smashed="yes">
 <attribute name="NAME" x="162.555709375" y="-144.7743" size="1.779" layer="95"/>
 <attribute name="VALUE" x="162.55698125" y="-167.645" size="1.7787" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="132.08" y="-152.4" smashed="yes" grouprefs="MOSFET_CONTROL">
+<instance part="C10" gate="G$1" x="132.08" y="-152.4" smashed="yes">
 <attribute name="NAME" x="133.604" y="-152.019" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.604" y="-157.099" size="1.778" layer="96"/>
 </instance>
-<instance part="R23" gate="G$1" x="304.8" y="-160.02" smashed="yes" rot="R270" grouprefs="FAN_CONTROL">
+<instance part="R23" gate="G$1" x="304.8" y="-160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="306.2986" y="-156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="301.498" y="-156.21" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -21298,7 +21291,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="202.1586" y="26.67" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="197.358" y="26.67" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$1" gate="G$1" x="243.84" y="-109.22" smashed="yes" grouprefs="CURRENT_MEASUREMENT"/>
+<instance part="U$1" gate="G$1" x="243.84" y="-109.22" smashed="yes"/>
 <instance part="D8" gate="G$1" x="213.36" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="211.455" y="31.242" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="216.789" y="31.242" size="1.778" layer="96" rot="R90"/>
@@ -21307,19 +21300,19 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <attribute name="NAME" x="211.455" y="21.082" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="216.789" y="21.082" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D7" gate="G$1" x="317.5" y="-149.86" smashed="yes" rot="R90" grouprefs="FAN_CONTROL">
+<instance part="D7" gate="G$1" x="317.5" y="-149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="315.595" y="-151.638" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="320.929" y="-151.638" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D10" gate="G$1" x="317.5" y="-160.02" smashed="yes" rot="R90" grouprefs="FAN_CONTROL">
+<instance part="D10" gate="G$1" x="317.5" y="-160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="315.595" y="-161.798" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="320.929" y="-161.798" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="T1" gate="G$1" x="259.08" y="-129.54" smashed="yes" rot="R180" grouprefs="FAN_CONTROL">
+<instance part="T1" gate="G$1" x="259.08" y="-129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="269.24" y="-137.16" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="269.24" y="-134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R26" gate="G$1" x="266.7" y="-129.54" smashed="yes" rot="R180" grouprefs="FAN_CONTROL">
+<instance part="R26" gate="G$1" x="266.7" y="-129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="270.51" y="-131.0386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="270.51" y="-126.238" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -21491,8 +21484,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<label x="327.66" y="106.68" size="1.778" layer="95" xref="yes" grouprefs="POWER_SUPPLY"/>
-<wire x1="320.04" y1="104.14" x2="320.04" y2="106.68" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
+<label x="327.66" y="106.68" size="1.778" layer="95" xref="yes"/>
+<wire x1="320.04" y1="104.14" x2="320.04" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="106.68" x2="320.04" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="104.14" x2="325.12" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="106.68" x2="320.04" y2="106.68" width="0.1524" layer="91"/>
@@ -21510,25 +21503,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <junction x="314.96" y="106.68"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
-<label x="137.16" y="96.52" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="Q6" gate="G$1" pin="S"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="-12.7" x2="137.16" y2="-12.7" width="0.1524" layer="91"/>
-<label x="137.16" y="-12.7" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
-<label x="137.16" y="43.18" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
-</segment>
-<segment>
 <pinref part="Q8" gate="G$1" pin="S"/>
-<label x="233.68" y="-144.78" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="FAN_CONTROL"/>
-<wire x1="254" y1="-144.78" x2="246.38" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="246.38" y1="-144.78" x2="233.68" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
+<label x="233.68" y="-144.78" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="254" y1="-144.78" x2="246.38" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="-144.78" x2="233.68" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="-137.16" x2="246.38" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="246.38" y="-144.78"/>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -21542,15 +21520,30 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <junction x="358.14" y="83.82"/>
 <pinref part="IC3" gate="A1" pin="VI"/>
 </segment>
+<segment>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="149.86" y1="-12.7" x2="142.24" y2="-12.7" width="0.1524" layer="91"/>
+<label x="142.24" y="-12.7" size="1.778" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="D"/>
+<wire x1="149.86" y1="43.18" x2="142.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="142.24" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q6" gate="G$1" pin="D"/>
+<wire x1="149.86" y1="96.52" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
+<label x="142.24" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="320.04" y1="96.52" x2="320.04" y2="93.98" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
-<label x="327.66" y="91.44" size="1.778" layer="95" xref="yes" grouprefs="POWER_SUPPLY"/>
-<wire x1="320.04" y1="93.98" x2="320.04" y2="91.44" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
-<wire x1="294.64" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
-<junction x="320.04" y="93.98" grouprefs="POWER_SUPPLY"/>
-<wire x1="314.96" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
+<wire x1="320.04" y1="96.52" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
+<label x="327.66" y="91.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="320.04" y1="93.98" x2="320.04" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
+<junction x="320.04" y="93.98"/>
+<wire x1="314.96" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="96.52" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="91.44" x2="327.66" y2="91.44" width="0.1524" layer="91"/>
@@ -21562,10 +21555,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="B9" gate="G$1" pin="AC2"/>
 </segment>
 <segment>
-<label x="132.08" y="63.5" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="POWER_CONVERSION"/>
+<label x="132.08" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="132.08" y="10.16" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="POWER_CONVERSION"/>
+<label x="132.08" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A1" pin="GND"/>
@@ -21602,12 +21595,12 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="COM"/>
-<label x="129.54" y="-91.44" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="157.48" y1="-91.44" x2="137.16" y2="-91.44" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<label x="129.54" y="-91.44" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="157.48" y1="-91.44" x2="137.16" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-91.44" x2="132.08" y2="-91.44" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-86.36" x2="132.08" y2="-91.44" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="132.08" y="-91.44" grouprefs="MOSFET_CONTROL"/>
+<wire x1="137.16" y1="-91.44" x2="132.08" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-86.36" x2="132.08" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="132.08" y="-91.44"/>
 <wire x1="132.08" y1="-91.44" x2="129.54" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="-86.36" x2="137.16" y2="-91.44" width="0.1524" layer="91"/>
@@ -21615,12 +21608,12 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="COM"/>
-<label x="129.54" y="-127" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="157.48" y1="-127" x2="137.16" y2="-127" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<label x="129.54" y="-127" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="157.48" y1="-127" x2="137.16" y2="-127" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-127" x2="132.08" y2="-127" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-121.92" x2="132.08" y2="-127" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="132.08" y="-127" grouprefs="MOSFET_CONTROL"/>
+<wire x1="137.16" y1="-127" x2="132.08" y2="-127" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-121.92" x2="132.08" y2="-127" width="0.1524" layer="91"/>
+<junction x="132.08" y="-127"/>
 <wire x1="132.08" y1="-127" x2="129.54" y2="-127" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="-121.92" x2="137.16" y2="-127" width="0.1524" layer="91"/>
@@ -21628,13 +21621,13 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="COM"/>
-<label x="129.54" y="-162.56" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="157.48" y1="-162.56" x2="137.16" y2="-162.56" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<label x="129.54" y="-162.56" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="157.48" y1="-162.56" x2="137.16" y2="-162.56" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-162.56" x2="132.08" y2="-162.56" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-162.56" x2="129.54" y2="-162.56" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-157.48" x2="132.08" y2="-162.56" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="132.08" y="-162.56" grouprefs="MOSFET_CONTROL"/>
+<wire x1="137.16" y1="-162.56" x2="132.08" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-162.56" x2="129.54" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-157.48" x2="132.08" y2="-162.56" width="0.1524" layer="91"/>
+<junction x="132.08" y="-162.56"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="-157.48" x2="137.16" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="137.16" y="-162.56"/>
@@ -21642,11 +21635,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VREF_2"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="241.3" y1="-83.82" x2="241.3" y2="-81.28" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<wire x1="241.3" y1="-81.28" x2="241.3" y2="-76.2" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<wire x1="238.76" y1="-76.2" x2="241.3" y2="-76.2" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<junction x="241.3" y="-76.2" grouprefs="CURRENT_MEASUREMENT"/>
-<label x="238.76" y="-76.2" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="CURRENT_MEASUREMENT"/>
+<wire x1="241.3" y1="-83.82" x2="241.3" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-81.28" x2="241.3" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-76.2" x2="241.3" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="241.3" y="-76.2"/>
+<label x="238.76" y="-76.2" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="254" y1="-104.14" x2="236.22" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="-104.14" x2="236.22" y2="-81.28" width="0.1524" layer="91"/>
@@ -21654,24 +21647,24 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <junction x="241.3" y="-81.28"/>
 </segment>
 <segment>
-<wire x1="266.7" y1="-160.02" x2="266.7" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="266.7" y1="-165.1" x2="289.56" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="289.56" y1="-165.1" x2="289.56" y2="-160.02" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="266.7" y1="-165.1" x2="241.3" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="266.7" y="-165.1" grouprefs="FAN_CONTROL"/>
+<wire x1="266.7" y1="-160.02" x2="266.7" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-165.1" x2="289.56" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-165.1" x2="289.56" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-165.1" x2="241.3" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="266.7" y="-165.1"/>
 <pinref part="D1" gate="1" pin="A"/>
 <pinref part="FAN_CONNECTOR" gate="-2" pin="S"/>
-<wire x1="241.3" y1="-165.1" x2="233.68" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="325.12" y1="-165.1" x2="317.5" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="289.56" y="-165.1" grouprefs="FAN_CONTROL"/>
+<wire x1="241.3" y1="-165.1" x2="233.68" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-165.1" x2="317.5" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="289.56" y="-165.1"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="317.5" y1="-165.1" x2="304.8" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="304.8" y1="-165.1" x2="289.56" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="304.8" y="-165.1" grouprefs="FAN_CONTROL"/>
-<wire x1="317.5" y1="-162.56" x2="317.5" y2="-165.1" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="317.5" y="-165.1" grouprefs="FAN_CONTROL"/>
+<wire x1="317.5" y1="-165.1" x2="304.8" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-165.1" x2="289.56" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="304.8" y="-165.1"/>
+<wire x1="317.5" y1="-162.56" x2="317.5" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="317.5" y="-165.1"/>
 <pinref part="D10" gate="G$1" pin="A"/>
-<label x="233.68" y="-165.1" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="FAN_CONTROL"/>
+<label x="233.68" y="-165.1" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="256.54" y1="-124.46" x2="241.3" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-124.46" x2="241.3" y2="-165.1" width="0.1524" layer="91"/>
@@ -21679,25 +21672,25 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="C8" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="-30.48" x2="162.56" y2="-45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="-45.72" x2="185.42" y2="-45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="-45.72" x2="185.42" y2="-27.94" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="-45.72" x2="132.08" y2="-45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="162.56" y="-45.72" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="25.4" x2="162.56" y2="10.16" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="10.16" x2="185.42" y2="10.16" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="10.16" x2="185.42" y2="27.94" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="162.56" y="10.16" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="10.16" x2="190.5" y2="10.16" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="185.42" y="10.16" grouprefs="POWER_CONVERSION"/>
-<wire x1="190.5" y1="10.16" x2="190.5" y2="12.7" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="190.5" y1="12.7" x2="190.5" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="190.5" y="10.16" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="-45.72" x2="190.5" y2="-45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="190.5" y1="-45.72" x2="190.5" y2="10.16" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="185.42" y="-45.72" grouprefs="POWER_CONVERSION"/>
-<junction x="190.5" y="10.16" grouprefs="POWER_CONVERSION"/>
+<wire x1="162.56" y1="-30.48" x2="162.56" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-45.72" x2="185.42" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-45.72" x2="185.42" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-45.72" x2="132.08" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="162.56" y="-45.72"/>
+<wire x1="162.56" y1="25.4" x2="162.56" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="10.16" x2="185.42" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="10.16" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="10.16" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
+<junction x="162.56" y="10.16"/>
+<wire x1="185.42" y1="10.16" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
+<junction x="185.42" y="10.16"/>
+<wire x1="190.5" y1="10.16" x2="190.5" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="12.7" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
+<junction x="190.5" y="10.16"/>
+<wire x1="185.42" y1="-45.72" x2="190.5" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-45.72" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
+<junction x="185.42" y="-45.72"/>
+<junction x="190.5" y="10.16"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="OUTPUT_CONNECTOR" gate="-2" pin="S"/>
@@ -21711,11 +21704,11 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="213.36" y1="20.32" x2="213.36" y2="12.7" width="0.1524" layer="91"/>
 <junction x="213.36" y="12.7"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="162.56" y1="78.74" x2="162.56" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="162.56" y="63.5" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="63.5" x2="185.42" y2="81.28" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<junction x="162.56" y="63.5"/>
+<wire x1="162.56" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="63.5" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 <junction x="185.42" y="63.5"/>
 <pinref part="D9" gate="G$1" pin="A"/>
@@ -21757,157 +21750,157 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="PH1VS" class="0">
 <segment>
-<wire x1="162.56" y1="88.9" x2="162.56" y2="96.52" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="162.56" y1="88.9" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="160.02" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <junction x="162.56" y="96.52"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
 <label x="162.56" y="101.6" size="1.778" layer="95" xref="yes"/>
 <wire x1="162.56" y1="101.6" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<wire x1="160.02" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VS"/>
-<wire x1="182.88" y1="-86.36" x2="198.12" y2="-86.36" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="200.66" y="-86.36" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-86.36" x2="200.66" y2="-86.36" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-83.82" x2="198.12" y2="-86.36" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="198.12" y="-86.36" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-86.36" x2="198.12" y2="-86.36" width="0.1524" layer="91"/>
+<label x="200.66" y="-86.36" size="1.778" layer="95" xref="yes"/>
+<wire x1="198.12" y1="-86.36" x2="200.66" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-83.82" x2="198.12" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="198.12" y="-86.36"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="149.86" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
-<wire x1="152.4" y1="101.6" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="101.6" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PH1P" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<label x="137.16" y="106.68" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="POWER_CONVERSION"/>
+<wire x1="139.7" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
+<label x="137.16" y="106.68" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="HO"/>
-<wire x1="182.88" y1="-81.28" x2="185.42" y2="-81.28" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="185.42" y="-81.28" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-81.28" x2="185.42" y2="-81.28" width="0.1524" layer="91"/>
+<label x="185.42" y="-81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PH1N" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<label x="137.16" y="81.28" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="POWER_CONVERSION"/>
+<wire x1="139.7" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
+<label x="137.16" y="81.28" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="LO"/>
-<wire x1="182.88" y1="-91.44" x2="185.42" y2="-91.44" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="185.42" y="-91.44" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-91.44" x2="185.42" y2="-91.44" width="0.1524" layer="91"/>
+<label x="185.42" y="-91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PH2VS" class="0">
 <segment>
-<wire x1="162.56" y1="35.56" x2="162.56" y2="43.18" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="43.18" x2="170.18" y2="43.18" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="162.56" y1="35.56" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="43.18" x2="170.18" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="160.02" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 <junction x="162.56" y="43.18"/>
-<pinref part="Q4" gate="G$1" pin="D"/>
 <label x="162.56" y="48.26" size="1.778" layer="95" xref="yes"/>
 <wire x1="162.56" y1="43.18" x2="162.56" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
+<wire x1="160.02" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VS"/>
-<wire x1="182.88" y1="-121.92" x2="198.12" y2="-121.92" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-121.92" x2="198.12" y2="-119.38" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-121.92" x2="200.66" y2="-121.92" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="198.12" y="-121.92" grouprefs="MOSFET_CONTROL"/>
-<label x="200.66" y="-121.92" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-121.92" x2="198.12" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-121.92" x2="198.12" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-121.92" x2="200.66" y2="-121.92" width="0.1524" layer="91"/>
+<junction x="198.12" y="-121.92"/>
+<label x="200.66" y="-121.92" size="1.778" layer="95" xref="yes"/>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="149.86" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="152.4" y1="48.26" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="53.34" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PH3VS" class="0">
 <segment>
-<wire x1="162.56" y1="-20.32" x2="162.56" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="162.56" y1="-12.7" x2="170.18" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="162.56" y1="-20.32" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-12.7" x2="170.18" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
-<wire x1="160.02" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="162.56" y="-12.7"/>
-<pinref part="Q2" gate="G$1" pin="D"/>
 <label x="162.56" y="-7.62" size="1.778" layer="95" xref="yes"/>
 <wire x1="162.56" y1="-7.62" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
+<wire x1="160.02" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VS"/>
-<wire x1="182.88" y1="-157.48" x2="198.12" y2="-157.48" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-157.48" x2="198.12" y2="-154.94" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-157.48" x2="200.66" y2="-157.48" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="198.12" y="-157.48" grouprefs="MOSFET_CONTROL"/>
-<label x="200.66" y="-157.48" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-157.48" x2="198.12" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-157.48" x2="198.12" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-157.48" x2="200.66" y2="-157.48" width="0.1524" layer="91"/>
+<junction x="198.12" y="-157.48"/>
+<label x="200.66" y="-157.48" size="1.778" layer="95" xref="yes"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="-27.94" x2="157.48" y2="-27.94" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="149.86" y1="-27.94" x2="157.48" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="-2.54" x2="149.86" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="152.4" y1="-7.62" x2="152.4" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-7.62" x2="157.48" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-2.54" x2="149.86" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+R_SENSE" class="0">
 <segment>
-<wire x1="180.34" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="43.18" x2="185.42" y2="35.56" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="180.34" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="185.42" y="96.52" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="96.52" x2="185.42" y2="88.9" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="200.66" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="195.58" y1="43.18" x2="195.58" y2="96.52" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="185.42" y="43.18" grouprefs="POWER_CONVERSION"/>
-<junction x="195.58" y="43.18" grouprefs="POWER_CONVERSION"/>
-<wire x1="180.34" y1="-12.7" x2="185.42" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="-12.7" x2="195.58" y2="-12.7" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<junction x="185.42" y="-12.7" grouprefs="POWER_CONVERSION"/>
-<wire x1="185.42" y1="-12.7" x2="185.42" y2="-20.32" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<wire x1="195.58" y1="-12.7" x2="195.58" y2="43.18" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
+<wire x1="180.34" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="43.18" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<junction x="185.42" y="96.52"/>
+<wire x1="185.42" y1="96.52" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="43.18" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
+<junction x="185.42" y="43.18"/>
+<junction x="195.58" y="43.18"/>
+<wire x1="180.34" y1="-12.7" x2="185.42" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-12.7" x2="195.58" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="185.42" y="-12.7"/>
+<wire x1="185.42" y1="-12.7" x2="185.42" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-12.7" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="200.66" y="48.26" size="1.778" layer="95" rot="R90" xref="yes"/>
 <wire x1="200.66" y1="48.26" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
@@ -21927,24 +21920,24 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </net>
 <net name="N$29" class="0">
 <segment>
-<wire x1="266.7" y1="-154.94" x2="266.7" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="266.7" y1="-144.78" x2="274.32" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
+<wire x1="266.7" y1="-154.94" x2="266.7" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-144.78" x2="274.32" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="C"/>
 <pinref part="Q8" gate="G$1" pin="D"/>
-<wire x1="264.16" y1="-144.78" x2="266.7" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="266.7" y="-144.78" grouprefs="FAN_CONTROL"/>
+<wire x1="264.16" y1="-144.78" x2="266.7" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="266.7" y="-144.78"/>
 <pinref part="U$5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="UWY" class="0">
 <segment>
-<wire x1="284.48" y1="-144.78" x2="289.56" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="289.56" y1="-144.78" x2="289.56" y2="-152.4" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="289.56" y="-144.78" grouprefs="FAN_CONTROL"/>
-<wire x1="304.8" y1="-144.78" x2="289.56" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
+<wire x1="284.48" y1="-144.78" x2="289.56" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-144.78" x2="289.56" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="289.56" y="-144.78"/>
+<wire x1="304.8" y1="-144.78" x2="289.56" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="FAN_CONNECTOR" gate="-1" pin="S"/>
-<wire x1="325.12" y1="-137.16" x2="304.8" y2="-137.16" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="304.8" y1="-137.16" x2="304.8" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
+<wire x1="325.12" y1="-137.16" x2="304.8" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-137.16" x2="304.8" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="+"/>
 <pinref part="R24" gate="G$1" pin="2"/>
@@ -21954,49 +21947,49 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH2P" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<label x="137.16" y="53.34" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="POWER_CONVERSION"/>
+<wire x1="139.7" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="137.16" y="53.34" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="HO"/>
-<wire x1="182.88" y1="-116.84" x2="185.42" y2="-116.84" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="185.42" y="-116.84" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-116.84" x2="185.42" y2="-116.84" width="0.1524" layer="91"/>
+<label x="185.42" y="-116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PH2N" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<label x="137.16" y="27.94" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="POWER_CONVERSION"/>
+<wire x1="139.7" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="137.16" y="27.94" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="LO"/>
-<wire x1="182.88" y1="-127" x2="185.42" y2="-127" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="185.42" y="-127" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-127" x2="185.42" y2="-127" width="0.1524" layer="91"/>
+<label x="185.42" y="-127" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PH3P" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="-2.54" x2="137.16" y2="-2.54" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<label x="137.16" y="-2.54" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="POWER_CONVERSION"/>
+<wire x1="139.7" y1="-2.54" x2="137.16" y2="-2.54" width="0.1524" layer="91"/>
+<label x="137.16" y="-2.54" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="HO"/>
-<wire x1="182.88" y1="-152.4" x2="185.42" y2="-152.4" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="185.42" y="-152.4" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-152.4" x2="185.42" y2="-152.4" width="0.1524" layer="91"/>
+<label x="185.42" y="-152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PH3N" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91" grouprefs="POWER_CONVERSION"/>
-<label x="137.16" y="-27.94" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="POWER_CONVERSION"/>
+<wire x1="139.7" y1="-27.94" x2="137.16" y2="-27.94" width="0.1524" layer="91"/>
+<label x="137.16" y="-27.94" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="LO"/>
-<wire x1="182.88" y1="-162.56" x2="185.42" y2="-162.56" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="185.42" y="-162.56" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-162.56" x2="185.42" y2="-162.56" width="0.1524" layer="91"/>
+<label x="185.42" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -22236,7 +22229,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="U1" gate="G$1" pin="3V"/>
 <wire x1="373.38" y1="58.42" x2="363.22" y2="58.42" width="0.1524" layer="91"/>
 <label x="363.22" y="58.42" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<label x="276.86" y="-83.82" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="CURRENT_MEASUREMENT"/>
+<label x="276.86" y="-83.82" size="1.778" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="I_ENC" gate="-4" pin="S"/>
@@ -22247,7 +22240,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="V_ENC" gate="-4" pin="S"/>
 <label x="350.52" y="-38.1" size="1.778" layer="95" xref="yes"/>
 <wire x1="340.36" y1="-38.1" x2="350.52" y2="-38.1" width="0.1524" layer="91"/>
-<label x="317.5" y="-144.78" size="1.778" layer="95" xref="yes" grouprefs="FAN_CONTROL"/>
+<label x="317.5" y="-144.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q13" gate="G$1" pin="E"/>
@@ -22281,14 +22274,14 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
-<label x="129.54" y="-76.2" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="157.48" y1="-76.2" x2="137.16" y2="-76.2" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<label x="129.54" y="-76.2" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="157.48" y1="-76.2" x2="137.16" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="-76.2" x2="132.08" y2="-76.2" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-78.74" x2="132.08" y2="-76.2" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="132.08" y="-76.2" grouprefs="MOSFET_CONTROL"/>
-<wire x1="167.64" y1="-66.04" x2="132.08" y2="-66.04" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-66.04" x2="132.08" y2="-76.2" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<wire x1="137.16" y1="-76.2" x2="132.08" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-78.74" x2="132.08" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="132.08" y="-76.2"/>
+<wire x1="167.64" y1="-66.04" x2="132.08" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-66.04" x2="132.08" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-76.2" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="-78.74" x2="137.16" y2="-76.2" width="0.1524" layer="91"/>
@@ -22297,14 +22290,14 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
-<label x="129.54" y="-111.76" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="157.48" y1="-111.76" x2="137.16" y2="-111.76" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<label x="129.54" y="-111.76" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="157.48" y1="-111.76" x2="137.16" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="-111.76" x2="132.08" y2="-111.76" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-114.3" x2="132.08" y2="-111.76" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="132.08" y="-111.76" grouprefs="MOSFET_CONTROL"/>
-<wire x1="167.64" y1="-101.6" x2="132.08" y2="-101.6" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-101.6" x2="132.08" y2="-111.76" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<wire x1="137.16" y1="-111.76" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-114.3" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
+<junction x="132.08" y="-111.76"/>
+<wire x1="167.64" y1="-101.6" x2="132.08" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-101.6" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-111.76" x2="129.54" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="-114.3" x2="137.16" y2="-111.76" width="0.1524" layer="91"/>
@@ -22313,14 +22306,14 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCC"/>
-<label x="129.54" y="-147.32" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
-<wire x1="157.48" y1="-147.32" x2="137.16" y2="-147.32" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<label x="129.54" y="-147.32" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="157.48" y1="-147.32" x2="137.16" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="-147.32" x2="132.08" y2="-147.32" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-149.86" x2="132.08" y2="-147.32" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<junction x="132.08" y="-147.32" grouprefs="MOSFET_CONTROL"/>
-<wire x1="167.64" y1="-137.16" x2="132.08" y2="-137.16" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="132.08" y1="-137.16" x2="132.08" y2="-147.32" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<wire x1="137.16" y1="-147.32" x2="132.08" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-149.86" x2="132.08" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="132.08" y="-147.32"/>
+<wire x1="167.64" y1="-137.16" x2="132.08" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-137.16" x2="132.08" y2="-147.32" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-147.32" x2="129.54" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="-149.86" x2="137.16" y2="-147.32" width="0.1524" layer="91"/>
@@ -22333,23 +22326,23 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="D8" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<wire x1="317.5" y1="-147.32" x2="317.5" y2="-144.78" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
+<wire x1="317.5" y1="-147.32" x2="317.5" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="TRAFO" gate="-2" pin="S"/>
-<wire x1="276.86" y1="101.6" x2="276.86" y2="106.68" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
-<wire x1="276.86" y1="106.68" x2="299.72" y2="106.68" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
-<wire x1="299.72" y1="106.68" x2="299.72" y2="99.06" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
+<wire x1="276.86" y1="101.6" x2="276.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="106.68" x2="299.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="106.68" x2="299.72" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="B9" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="TRAFO" gate="-1" pin="S"/>
-<wire x1="276.86" y1="99.06" x2="289.56" y2="99.06" width="0.1524" layer="91" grouprefs="POWER_SUPPLY"/>
+<wire x1="276.86" y1="99.06" x2="289.56" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="B9" gate="G$1" pin="-"/>
 </segment>
 </net>
@@ -22462,27 +22455,27 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="VB" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VB"/>
-<wire x1="182.88" y1="-76.2" x2="198.12" y2="-76.2" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="172.72" y1="-66.04" x2="198.12" y2="-66.04" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-66.04" x2="198.12" y2="-76.2" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-76.2" x2="198.12" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-66.04" x2="198.12" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-66.04" x2="198.12" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="D5" gate="1" pin="C"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="198.12" y="-76.2"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VB"/>
-<wire x1="182.88" y1="-111.76" x2="198.12" y2="-111.76" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="172.72" y1="-101.6" x2="198.12" y2="-101.6" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-101.6" x2="198.12" y2="-111.76" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-111.76" x2="198.12" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-101.6" x2="198.12" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-101.6" x2="198.12" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="D2" gate="1" pin="C"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <junction x="198.12" y="-111.76"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VB"/>
-<wire x1="182.88" y1="-147.32" x2="198.12" y2="-147.32" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="172.72" y1="-137.16" x2="198.12" y2="-137.16" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<wire x1="198.12" y1="-137.16" x2="198.12" y2="-147.32" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
+<wire x1="182.88" y1="-147.32" x2="198.12" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-137.16" x2="198.12" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-137.16" x2="198.12" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="D3" gate="1" pin="C"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <junction x="198.12" y="-147.32"/>
@@ -22491,8 +22484,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH1_HIN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="HIN"/>
-<wire x1="157.48" y1="-81.28" x2="154.94" y2="-81.28" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="154.94" y="-81.28" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="157.48" y1="-81.28" x2="154.94" y2="-81.28" width="0.1524" layer="91"/>
+<label x="154.94" y="-81.28" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB7"/>
@@ -22503,8 +22496,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH1_LIN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="LIN"/>
-<wire x1="157.48" y1="-86.36" x2="154.94" y2="-86.36" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="154.94" y="-86.36" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="157.48" y1="-86.36" x2="154.94" y2="-86.36" width="0.1524" layer="91"/>
+<label x="154.94" y="-86.36" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB6"/>
@@ -22515,8 +22508,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH2_HIN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="HIN"/>
-<wire x1="157.48" y1="-116.84" x2="154.94" y2="-116.84" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="154.94" y="-116.84" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="157.48" y1="-116.84" x2="154.94" y2="-116.84" width="0.1524" layer="91"/>
+<label x="154.94" y="-116.84" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA11"/>
@@ -22527,8 +22520,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH2_LIN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="LIN"/>
-<wire x1="157.48" y1="-121.92" x2="154.94" y2="-121.92" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="154.94" y="-121.92" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="157.48" y1="-121.92" x2="154.94" y2="-121.92" width="0.1524" layer="91"/>
+<label x="154.94" y="-121.92" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA10"/>
@@ -22539,8 +22532,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH3_LIN" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="LIN"/>
-<wire x1="157.48" y1="-157.48" x2="154.94" y2="-157.48" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="154.94" y="-157.48" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="157.48" y1="-157.48" x2="154.94" y2="-157.48" width="0.1524" layer="91"/>
+<label x="154.94" y="-157.48" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA8"/>
@@ -22551,8 +22544,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="PH3_HIN" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="HIN"/>
-<wire x1="157.48" y1="-152.4" x2="154.94" y2="-152.4" width="0.1524" layer="91" grouprefs="MOSFET_CONTROL"/>
-<label x="154.94" y="-152.4" size="1.778" layer="95" rot="MR0" xref="yes" grouprefs="MOSFET_CONTROL"/>
+<wire x1="157.48" y1="-152.4" x2="154.94" y2="-152.4" width="0.1524" layer="91"/>
+<label x="154.94" y="-152.4" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA9"/>
@@ -22563,12 +22556,12 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="V_MEASURE_FAN" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="-152.4" x2="317.5" y2="-154.94" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="317.5" y1="-154.94" x2="317.5" y2="-157.48" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<wire x1="304.8" y1="-154.94" x2="317.5" y2="-154.94" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
-<junction x="317.5" y="-154.94" grouprefs="FAN_CONTROL"/>
-<label x="322.58" y="-154.94" size="1.778" layer="95" xref="yes" grouprefs="FAN_CONTROL"/>
-<wire x1="322.58" y1="-154.94" x2="317.5" y2="-154.94" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
+<wire x1="317.5" y1="-152.4" x2="317.5" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-154.94" x2="317.5" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="-154.94" x2="317.5" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="317.5" y="-154.94"/>
+<label x="322.58" y="-154.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="322.58" y1="-154.94" x2="317.5" y2="-154.94" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 <pinref part="D10" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="1"/>
@@ -22604,10 +22597,10 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VREF_1"/>
 <pinref part="U$1" gate="G$1" pin="VS"/>
-<wire x1="274.32" y1="-76.2" x2="274.32" y2="-81.28" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<wire x1="274.32" y1="-81.28" x2="274.32" y2="-83.82" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<wire x1="274.32" y1="-83.82" x2="276.86" y2="-83.82" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<junction x="274.32" y="-83.82" grouprefs="CURRENT_MEASUREMENT"/>
+<wire x1="274.32" y1="-76.2" x2="274.32" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="-81.28" x2="274.32" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="-83.82" x2="276.86" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="274.32" y="-83.82"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="-104.14" x2="302.26" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-104.14" x2="302.26" y2="-81.28" width="0.1524" layer="91"/>
@@ -22618,8 +22611,8 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="I_MEASURE_OUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OUT"/>
-<wire x1="274.32" y1="-91.44" x2="276.86" y2="-91.44" width="0.1524" layer="91" grouprefs="CURRENT_MEASUREMENT"/>
-<label x="276.86" y="-91.44" size="1.778" layer="95" xref="yes" grouprefs="CURRENT_MEASUREMENT"/>
+<wire x1="274.32" y1="-91.44" x2="276.86" y2="-91.44" width="0.1524" layer="91"/>
+<label x="276.86" y="-91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB15"/>
@@ -22758,11 +22751,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="9.5" severity="warning">
-Since Version 9.5, EAGLE supports persistent groups with
-schematics, and board files. Those persistent groups
-will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
